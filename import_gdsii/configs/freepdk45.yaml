@@ -1,0 +1,136 @@
+# SPDX-FileCopyrightText: 2026 aesc silicon
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# FreePDK45 / Nangate 45nm open predictive PDK.
+#
+# GDS layer numbers and datatypes are taken verbatim from the FreePDK45
+# KLayout layer-property file (FreePDK45.lyp). Metal "z" (layer bottom) and
+# "height" (thickness) are read from the Nangate/FreePDK45 technology LEF
+# (HEIGHT/THICKNESS); via heights are derived as the dielectric gap between
+# the metal below and above. Well/active/poly/contact z-values are estimates
+# for visualization (these are doping/masterslice layers with no LEF film).
+#
+# Sources:
+#   FreePDK45.lyp  - github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+#                    flow/platforms/nangate45/FreePDK45.lyp
+#   tech LEF       - .../nangate45/lef/NangateOpenCellLibrary.tech.lef
+
+# --- Front end of line (doping / poly) ----------------------------------
+nwell:
+  index: 3
+  type: 0
+  z: -0.30   # Estimated (doping region in substrate)
+  height: 0.20
+active:
+  index: 1
+  type: 0
+  z: -0.15   # Estimated (diffusion)
+  height: 0.15
+poly:
+  index: 9
+  type: 0
+  z: 0.0
+  height: 0.10   # Estimated (no thickness in LEF)
+contact:
+  index: 10
+  type: 0
+  z: 0.0
+  height: 0.37   # Fills substrate up to metal1 bottom
+
+# --- Back end of line (metal / via stack, from tech LEF) ----------------
+metal1:
+  index: 11
+  type: 0
+  z: 0.37
+  height: 0.13
+via1:
+  index: 12
+  type: 0
+  z: 0.50
+  height: 0.12   # Derived gap
+metal2:
+  index: 13
+  type: 0
+  z: 0.62
+  height: 0.14
+via2:
+  index: 14
+  type: 0
+  z: 0.76
+  height: 0.12   # Derived gap
+metal3:
+  index: 15
+  type: 0
+  z: 0.88
+  height: 0.14
+via3:
+  index: 16
+  type: 0
+  z: 1.02
+  height: 0.12   # Derived gap
+metal4:
+  index: 17
+  type: 0
+  z: 1.14
+  height: 0.28
+via4:
+  index: 18
+  type: 0
+  z: 1.42
+  height: 0.29   # Derived gap
+metal5:
+  index: 19
+  type: 0
+  z: 1.71
+  height: 0.28
+via5:
+  index: 20
+  type: 0
+  z: 1.99
+  height: 0.29   # Derived gap
+metal6:
+  index: 21
+  type: 0
+  z: 2.28
+  height: 0.28
+via6:
+  index: 22
+  type: 0
+  z: 2.56
+  height: 0.29   # Derived gap
+metal7:
+  index: 23
+  type: 0
+  z: 2.85
+  height: 0.80
+via7:
+  index: 24
+  type: 0
+  z: 3.65
+  height: 0.82   # Derived gap
+metal8:
+  index: 25
+  type: 0
+  z: 4.47
+  height: 0.80
+via8:
+  index: 26
+  type: 0
+  z: 5.27
+  height: 0.82   # Derived gap
+metal9:
+  index: 27
+  type: 0
+  z: 6.09
+  height: 2.00
+via9:
+  index: 28
+  type: 0
+  z: 8.09
+  height: 2.00   # Derived gap
+metal10:
+  index: 29
+  type: 0
+  z: 10.09
+  height: 2.00

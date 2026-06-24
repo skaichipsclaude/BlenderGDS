@@ -28,8 +28,12 @@ BlenderGDS enables semiconductor layout visualization by importing GDSII files i
 * IHP Open PDK (SG13G2 & CMOS5L)
 * SkyWater SKY130 PDK
 * GlobalFoundries GF180MCU PDK
+* FreePDK45 / Nangate45 (45nm open predictive PDK, 10 metal layers)
+* ASAP7 (ASU 7nm FinFET predictive PDK)
 * SiEPIC EBeam PDK (silicon photonics)
 * Luxtelligence LNOI400 PDK (thin-film lithium niobate photonics)
+
+New PDKs can be added without touching any code — see [Adding a New PDK](#adding-a-new-pdk).
 
 ## Installation
 

@@ -1,0 +1,99 @@
+# SPDX-FileCopyrightText: 2026 aesc silicon
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+name: Fancy
+description: Fancy color scheme - vivid flat aesthetic
+layers:
+  nwell:
+    color: [0.10, 0.30, 0.90, 0.65]
+    metallic: 0.00
+    roughness: 1.00
+  active:
+    color: [0.10, 0.95, 0.25, 0.90]
+    metallic: 0.00
+    roughness: 1.00
+  poly:
+    color: [0.95, 0.08, 0.08, 0.95]
+    metallic: 0.00
+    roughness: 1.00
+  contact:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal1:
+    color: [0.15, 0.40, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via1:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal2:
+    color: [0.33, 0.27, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via2:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal3:
+    color: [0.51, 0.13, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via3:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal4:
+    color: [0.70, 0.09, 0.69, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via4:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal5:
+    color: [0.90, 0.08, 0.28, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via5:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal6:
+    color: [1.00, 0.18, 0.07, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via6:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal7:
+    color: [1.00, 0.37, 0.06, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via7:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal8:
+    color: [1.00, 0.55, 0.06, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via8:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal9:
+    color: [1.00, 0.66, 0.08, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  via9:
+    color: [1.00, 1.00, 1.00, 1.00]
+    metallic: 0.00
+    roughness: 1.00
+  metal10:
+    color: [1.00, 0.78, 0.10, 1.00]
+    metallic: 0.00
+    roughness: 1.00

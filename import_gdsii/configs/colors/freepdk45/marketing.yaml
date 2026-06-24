@@ -1,0 +1,83 @@
+# SPDX-FileCopyrightText: 2026 aesc silicon
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+name: Marketing
+description: Marketing color scheme
+layers:
+  nwell:
+    color: [0.35, 0.55, 0.65, 0.55]
+  active:
+    color: [0.40, 0.55, 0.30, 0.90]
+  poly:
+    color: [0.22, 0.22, 0.20, 0.95]
+  contact:
+    color: [0.35, 0.37, 0.40, 1.00]
+    metallic: 0.80
+  metal1:
+    color: [0.61, 0.62, 0.64, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via1:
+    color: [0.35, 0.37, 0.40, 1.00]
+    metallic: 0.80
+  metal2:
+    color: [0.64, 0.65, 0.67, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via2:
+    color: [0.36, 0.38, 0.41, 1.00]
+    metallic: 0.80
+  metal3:
+    color: [0.67, 0.68, 0.70, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via3:
+    color: [0.38, 0.40, 0.43, 1.00]
+    metallic: 0.80
+  metal4:
+    color: [0.70, 0.71, 0.73, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via4:
+    color: [0.39, 0.41, 0.44, 1.00]
+    metallic: 0.80
+  metal5:
+    color: [0.73, 0.74, 0.76, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via5:
+    color: [0.41, 0.42, 0.46, 1.00]
+    metallic: 0.80
+  metal6:
+    color: [0.77, 0.78, 0.80, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via6:
+    color: [0.42, 0.44, 0.47, 1.00]
+    metallic: 0.80
+  metal7:
+    color: [0.80, 0.81, 0.83, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via7:
+    color: [0.43, 0.45, 0.48, 1.00]
+    metallic: 0.80
+  metal8:
+    color: [0.83, 0.84, 0.86, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via8:
+    color: [0.45, 0.47, 0.50, 1.00]
+    metallic: 0.80
+  metal9:
+    color: [0.86, 0.87, 0.89, 1.00]
+    metallic: 0.80
+    roughness: 0.30
+  via9:
+    color: [0.46, 0.48, 0.51, 1.00]
+    metallic: 0.80
+  metal10:
+    color: [0.89, 0.90, 0.92, 1.00]
+    metallic: 0.80
+    roughness: 0.30

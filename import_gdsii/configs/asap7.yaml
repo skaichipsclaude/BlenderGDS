@@ -1,0 +1,149 @@
+# SPDX-FileCopyrightText: 2026 aesc silicon
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# ASAP7 - ASU 7nm FinFET predictive PDK.
+#
+# GDS layer numbers and datatypes are taken verbatim from the ASAP7 KLayout
+# layer-property file (asap7.lyp) and cross-checked against the ASAP7 paper
+# mask IDs (Clark et al., Microelectronics Journal 2016). Datatype 0 = drawing.
+#
+# IMPORTANT - 4x scale: ASAP7 ships its GDS drawn at 4x the real silicon
+# dimensions (an 18 nm M1 appears as 0.072 um in the file). Because the
+# importer reads the lateral GDS coordinates as-is, the "z" and "height"
+# values below are ALSO given in 4x space (real thickness x 4) so the 3D model
+# stays proportionally correct. Real (1x) thicknesses are 1/4 of these.
+#
+# Metal pitches/widths are firm (tech LEF asap7_tech_1x_201209.lef); per-layer
+# metal/via THICKNESS and absolute Z are not published and are engineering
+# estimates (metal thickness ~ pitch, aspect ratio <= ~2). Treat z/height as
+# relative proportions, not fab-accurate values.
+#
+# Sources:
+#   asap7.lyp     - github.com/laurentc2/ASAP7_for_KLayout
+#   tech LEF      - github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+#                   flow/platforms/asap7/lef/asap7_tech_1x_201209.lef
+
+# --- Front end of line --------------------------------------------------
+NWELL:
+  index: 1
+  type: 0
+  z: -0.40   # Estimated (well in substrate)
+  height: 0.40
+ACTIVE:
+  index: 11
+  type: 0
+  z: 0.0
+  height: 0.128   # 32 nm x 4
+GATE:
+  index: 7
+  type: 0
+  z: 0.0
+  height: 0.32    # Estimated (poly gate)
+SDT:
+  index: 88
+  type: 0
+  z: 0.0
+  height: 0.08    # Source/drain trench (estimated)
+LISD:
+  index: 17
+  type: 0
+  z: 0.08
+  height: 0.24    # S/D local interconnect (estimated)
+LIG:
+  index: 16
+  type: 0
+  z: 0.08
+  height: 0.24    # Gate local interconnect (estimated)
+
+# --- Back end of line (metal / via stack; estimated thicknesses) --------
+V0:
+  index: 18
+  type: 0
+  z: 0.32
+  height: 0.10
+M1:
+  index: 19
+  type: 0
+  z: 0.42
+  height: 0.144
+V1:
+  index: 21
+  type: 0
+  z: 0.564
+  height: 0.04
+M2:
+  index: 20
+  type: 0
+  z: 0.604
+  height: 0.144
+V2:
+  index: 25
+  type: 0
+  z: 0.748
+  height: 0.052
+M3:
+  index: 30
+  type: 0
+  z: 0.80
+  height: 0.144
+V3:
+  index: 35
+  type: 0
+  z: 0.944
+  height: 0.056
+M4:
+  index: 40
+  type: 0
+  z: 1.00
+  height: 0.192
+V4:
+  index: 45
+  type: 0
+  z: 1.192
+  height: 0.076
+M5:
+  index: 50
+  type: 0
+  z: 1.268
+  height: 0.192
+V5:
+  index: 55
+  type: 0
+  z: 1.46
+  height: 0.076
+M6:
+  index: 60
+  type: 0
+  z: 1.536
+  height: 0.256
+V6:
+  index: 65
+  type: 0
+  z: 1.792
+  height: 0.104
+M7:
+  index: 70
+  type: 0
+  z: 1.896
+  height: 0.256
+V7:
+  index: 75
+  type: 0
+  z: 2.152
+  height: 0.104
+M8:
+  index: 80
+  type: 0
+  z: 2.256
+  height: 0.32
+V8:
+  index: 85
+  type: 0
+  z: 2.576
+  height: 0.128
+M9:
+  index: 90
+  type: 0
+  z: 2.704
+  height: 0.32
